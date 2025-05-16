@@ -12,16 +12,18 @@ for color in colors:
         print(y)
 print("\n")
 for k in range(5):
-    print(k) #0 to 4. i.e. 0 to n - 1 
+    print(k) #0 to 4. i.e. 0 to 5 - 1 
 print("\n")
 for k in range(5):
-    print(k + 1) #1 to 5. i.e. 1 to n
+    print(k + 1) #1 to 5. i.e. 1 to 5
 print("\n")
 for k in range(1, 11):
     print(k) #1 to 10. i.e. x to n - 1
 print("\n")
 for k in range(1, 6, 2):
     print(k)
+
+print("\n")
 
 # WHILE LOOP
 i = 0
@@ -43,3 +45,14 @@ while(count>0):
     count = count - 1
 else:
     print("I am inside else")
+
+#Do-While Loop
+
+x  = 0
+while True:
+    print(x)
+    x = x + 1
+    if(x%4 == 0):
+        if(x == 4):
+            continue
+        break
