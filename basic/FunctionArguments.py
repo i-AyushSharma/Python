@@ -5,4 +5,8 @@ average(4, 10)
 average()
 average(b=5)
 
+def name(fname, mname = "Jhon", lname = "Watson"):
+    print("hello", fname, mname, lname)
 
+name("Amy")
+name("Jhon", "Jones")
