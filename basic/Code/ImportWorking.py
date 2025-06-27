@@ -9,5 +9,5 @@ print(m.pi)
 
 print(dir(m))
 
-import Functions as fn
-print(fn.isGreater(65, 23))
+import IdiomForImport as fn
+print(fn.greet())
